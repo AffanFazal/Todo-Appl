@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #inp{
+            border-style: dashed;
+            height: 30px;
+            width: 400px;
+            margin-right: 30px;
+            border-color: black;
+            /* margin-top: 30px; */
+            border: 1px solid black;
+            border-radius: 10px
+        }
+
+        #delb{
+            border-color: black;
+            background-color: red;
+            padding: 7px;
+            border-radius: 10px;
+            margin-left: 20px ;
+        }
+
+        #editb{
+            border-color: black;
+            padding: 7px;
+            border-radius: 10px;
+            background-color: yellow;
+            
+        }
+        .editor{
+            border-color: black;
+            margin-left: 40px;
+            padding: 7px;
+            border-radius: 10px;
+            background-color: aqua;
+        }
+
+        .deletor{
+            border-color: black;
+            margin-left: 40px;
+            padding: 7px;
+            border-radius: 10px;
+            background-color: orangered ;
+            /* margin-left: 200px; */
+        }
+
+        #ul{
+            margin-right: 400px;
+            /* padding: 50px; */
+        }
+        #d1{
+            border: 3px solid black;
+             margin-left: 200px;
+             margin-right: 200px;
+             padding-top: 100px;
+             padding-bottom: 200px;
+             border-radius: 20px;
+        }
+
+    </style>
+</head>
+<body bgcolor="SUCSESS">
+
+    <center>
+
+    <h1>TODO APPLICATION</h1>
+    <div id="d1">
+    <input  type="text" name="" id="inp">
+    <button id="editb" onclick="addTodo()">Add Todo</button>
+    <button id="delb" onclick="delall()">Delete All</button>
+    <ul id="ul"></ul>
+</div>
+
+</center>
+    
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
